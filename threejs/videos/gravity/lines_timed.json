@@ -1,0 +1,170 @@
+[
+{
+"i": 0,
+"speaker": "N",
+"text": "When my crush is happy, everyone at school floats.",
+"s": 0.0,
+"e": 2.32
+},
+{
+"i": 1,
+"speaker": "N",
+"text": "When she's sad, everything gets heavy.",
+"s": 2.467,
+"e": 4.173
+},
+{
+"i": 2,
+"speaker": "N",
+"text": "So the principal gave me one rule: keep Rose calm. The ceiling is very hard.",
+"s": 4.32,
+"e": 8.533
+},
+{
+"i": 3,
+"speaker": "N",
+"text": "Then he said something weird.",
+"s": 8.68,
+"e": 9.64
+},
+{
+"i": 4,
+"speaker": "HALE",
+"text": "Never watch her face. Watch the ceiling.",
+"s": 9.787,
+"e": 11.647
+},
+{
+"i": 5,
+"speaker": "N",
+"text": "On Monday, I told her a joke in the hallway.",
+"s": 11.794,
+"e": 13.447
+},
+{
+"i": 6,
+"speaker": "ROSE",
+"text": "That's so dumb.",
+"s": 13.594,
+"e": 14.436
+},
+{
+"i": 7,
+"speaker": "N",
+"text": "She didn't even smile. Then the whole hallway hit the ceiling.",
+"s": 14.583,
+"e": 17.516
+},
+{
+"i": 8,
+"speaker": "N",
+"text": "Best ten seconds of my life. Then we all fell down.",
+"s": 17.663,
+"e": 20.116
+},
+{
+"i": 9,
+"speaker": "N",
+"text": "So I stopped telling jokes. She called me boring. The gym got so heavy, the floor cracked.",
+"s": 20.263,
+"e": 25.01
+},
+{
+"i": 10,
+"speaker": "N",
+"text": "So I told one tiny joke.",
+"s": 25.156,
+"e": 26.65
+},
+{
+"i": 11,
+"speaker": "ROSE",
+"text": "Not funny.",
+"s": 26.796,
+"e": 27.32
+},
+{
+"i": 12,
+"speaker": "N",
+"text": "The school bus floated away.",
+"s": 27.467,
+"e": 28.747
+},
+{
+"i": 13,
+"speaker": "N",
+"text": "So I said nothing. I just sat next to her.",
+"s": 28.893,
+"e": 30.92
+},
+{
+"i": 14,
+"speaker": "ROSE",
+"text": "Go away.",
+"s": 31.067,
+"e": 31.591
+},
+{
+"i": 15,
+"speaker": "N",
+"text": "She didn't move. Every lunch tray in the cafeteria flew out the window.",
+"s": 31.737,
+"e": 35.044
+},
+{
+"i": 16,
+"speaker": "N",
+"text": "The whole school was stuck to the ceiling, yelling at me.",
+"s": 35.191,
+"e": 37.324
+},
+{
+"i": 17,
+"speaker": "N",
+"text": "Then I remembered. Never watch her face. Watch the ceiling.",
+"s": 37.471,
+"e": 40.404
+},
+{
+"i": 18,
+"speaker": "N",
+"text": "I floated over to her.",
+"s": 40.551,
+"e": 41.351
+},
+{
+"i": 19,
+"speaker": "ME",
+"text": "Rose, are you happy right now?",
+"s": 41.497,
+"e": 42.825
+},
+{
+"i": 20,
+"speaker": "ROSE",
+"text": "No! It's not like I like you or anything.",
+"s": 42.972,
+"e": 44.543
+},
+{
+"i": 21,
+"speaker": "N",
+"text": "The roof came off the school.",
+"s": 44.69,
+"e": 45.863
+},
+{
+"i": 22,
+"speaker": "HALE",
+"text": "New rule. You sit next to her. Forever.",
+"s": 46.01,
+"e": 48.047
+},
+{
+"i": 23,
+"speaker": "ROSE",
+"text": "Hmph.",
+"s": 48.193,
+"e": 48.5
+}
+]

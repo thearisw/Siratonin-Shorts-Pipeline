@@ -1,0 +1,66 @@
+{
+ "house_brick": {
+  "file": "props/house_brick.glb",
+  "name": "Brick ranch house",
+  "assetId": 16127244089,
+  "notes": "One-storey brick house, dark shingle roof, 2-car garage, driveway. 67x22x104 studs.",
+  "front": "-z"
+ },
+ "house_purple": {
+  "file": "props/house_purple.glb",
+  "name": "Two-storey lilac house",
+  "assetId": 125443645311849,
+  "notes": "Lilac siding, dark roof, double garage, lawn and a small tree on its lot. 65x36x80.",
+  "front": "-z"
+ },
+ "house_green": {
+  "file": "props/house_green.glb",
+  "name": "Large sage-green house",
+  "assetId": 18102018549,
+  "notes": "Big two-storey house with full interior; decimated to 12% (was 1.1M triangles). 91x46x96. Decimated to 12% (was 1.1M triangles, 67 MB; now 137k, 10 MB).",
+  "front": "-z"
+ },
+ "house_grey": {
+  "file": "props/house_grey.glb",
+  "name": "Beige brick house with porch",
+  "assetId": 18609718207,
+  "notes": "Brick + beige siding, porch, garage, driveway. 97x38x107.",
+  "front": "+z"
+ },
+ "school": {
+  "file": "props/school.glb",
+  "name": "Brick school building",
+  "assetId": 76558120171446,
+  "notes": "Three-storey brick school, central entrance. Exterior only. 414x79x108 (very wide; use as a backdrop)."
+ },
+ "road_cross": {
+  "file": "props/road_cross.glb",
+  "name": "4-way intersection",
+  "assetId": 106060781278274,
+  "notes": "204x204 studs with sidewalks, crosswalks and traffic-light poles."
+ },
+ "road_t": {
+  "file": "props/road_t.glb",
+  "name": "T intersection",
+  "assetId": 138170378311672,
+  "notes": "128x128 studs, asphalt + markings."
+ },
+ "road_straight": {
+  "file": "props/road_straight.glb",
+  "name": "Straight road with sidewalks",
+  "assetId": 8137140232,
+  "notes": "40 wide x 50 long piece; tile it along Z for a street. Road top is at y=5.1 (thick slab): stand characters at y 5.1 on it; tiles every 50 along z."
+ },
+ "streetlight": {
+  "file": "props/streetlight.glb",
+  "name": "Street light",
+  "assetId": 86169170409073,
+  "notes": "21 studs tall pole with arm. Add a PointLight/SpotLight at the head for night."
+ },
+ "tree": {
+  "file": "props/tree.glb",
+  "name": "Low-poly pine tree",
+  "assetId": 12549617200,
+  "notes": "40 studs tall."
+ }
+}

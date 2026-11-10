@@ -1,0 +1,12 @@
+{
+  "name": "reels-threejs",
+  "private": true,
+  "description": "Vertical story reels rendered with three.js",
+  "scripts": {
+    "render": "node kit/render.js"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "playwright": "^1.48.0"
+  }
+}

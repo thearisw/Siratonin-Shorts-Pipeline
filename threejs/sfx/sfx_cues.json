@@ -1,0 +1,628 @@
+{
+ "_note": "Pineapple SFX cue list. at = seconds on the video timeline (voice_final.mp3 / lines_timed.json). gain in dB. Beds (with 'until') loop and fade in/out. 'need' = no file here yet, find a real recording (see SFX_README.md). Re-timed from sfx_cues_v1.json by retime_cues.py.",
+ "beds": [
+  {
+   "file": "amb_night_crickets_loop.wav",
+   "at": 0.0,
+   "until": 24.74,
+   "gain": -25,
+   "fade": 0.6,
+   "beat": "Hook + rules, night street"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 0.0,
+   "until": 24.74,
+   "gain": -24,
+   "fade": 1.0,
+   "beat": "Dread under the rules"
+  },
+  {
+   "file": "amb_house_room_tone_loop.wav",
+   "at": 24.74,
+   "until": 35.44,
+   "gain": -26,
+   "fade": 0.4,
+   "beat": "Inside: Mia, the locks, the promise"
+  },
+  {
+   "file": "amb_night_crickets_loop.wav",
+   "at": 35.44,
+   "until": 53.244,
+   "gain": -25,
+   "fade": 0.5,
+   "beat": "Twelve streetlights, the Millers"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 45.45,
+   "until": 53.244,
+   "gain": -22,
+   "fade": 0.8,
+   "beat": "Something in the woods hears -> light goes dark"
+  },
+  {
+   "file": "amb_morning_birds.wav",
+   "at": 53.244,
+   "until": 54.885,
+   "gain": -22,
+   "fade": 0.3,
+   "beat": "Mug on the doorstep (morning)"
+  },
+  {
+   "file": "amb_wind_night_loop.wav",
+   "at": 54.885,
+   "until": 62.939,
+   "gain": -22,
+   "fade": 0.5,
+   "beat": "Ortiz on porch (fog), Kims"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 54.885,
+   "until": 72.039,
+   "gain": -24,
+   "fade": 1.0,
+   "beat": "Countdown + under my window"
+  },
+  {
+   "file": "amb_night_crickets_loop.wav",
+   "at": 62.939,
+   "until": 72.039,
+   "gain": -25,
+   "fade": 0.5,
+   "beat": "Lights going out, Caller at the window"
+  },
+  {
+   "file": "amb_morning_birds.wav",
+   "at": 72.039,
+   "until": 75.638,
+   "gain": -22,
+   "fade": 0.4,
+   "beat": "Until sunrise"
+  },
+  {
+   "file": "amb_house_room_tone_loop.wav",
+   "at": 73.118,
+   "until": 85.215,
+   "gain": -26,
+   "fade": 0.4,
+   "beat": "Breakfast, Friday evening at home"
+  },
+  {
+   "file": "amb_morning_birds.wav",
+   "at": 75.638,
+   "until": 79.112,
+   "gain": -28,
+   "fade": 0.4,
+   "beat": "Breakfast (birds outside)"
+  },
+  {
+   "file": "clock_ticking_loop.wav",
+   "at": 79.112,
+   "until": 85.215,
+   "gain": -18,
+   "fade": 0.2,
+   "beat": "Clock 8:55 -> 9:00"
+  },
+  {
+   "file": "amb_house_room_tone_loop.wav",
+   "at": 87.265,
+   "until": 102.249,
+   "gain": -26,
+   "fade": 0.3,
+   "beat": "Back in after the silence: 9:15 onwards"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 87.265,
+   "until": 102.249,
+   "gain": -20,
+   "fade": 1.0,
+   "beat": "The Caller at the door"
+  },
+  {
+   "file": "fx_heartbeat_72bpm.wav",
+   "at": 91.964,
+   "until": 95.465,
+   "gain": -14,
+   "fade": 0.3,
+   "beat": "Hiding under the stairs"
+  },
+  {
+   "file": "clock_ticking_loop.wav",
+   "at": 94.554,
+   "until": 95.525,
+   "gain": -16,
+   "fade": 0.1,
+   "beat": "Clock: an hour passes"
+  },
+  {
+   "file": "amb_house_room_tone_loop.wav",
+   "at": 104.25,
+   "until": 115.766,
+   "gain": -26,
+   "fade": 0.3,
+   "beat": "Hero wakes, Not-Mia at the door"
+  },
+  {
+   "file": "amb_wind_night_loop.wav",
+   "at": 110.966,
+   "until": 112.366,
+   "gain": -16,
+   "fade": 0.2,
+   "beat": "Door open: cold air in"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 115.786,
+   "until": 134.825,
+   "gain": -18,
+   "fade": 1.5,
+   "beat": "Build-up to the twist"
+  },
+  {
+   "file": "fx_heartbeat_110bpm.wav",
+   "at": 124.666,
+   "until": 130.618,
+   "gain": -12,
+   "fade": 0.3,
+   "beat": "Tried to let go / she held on / real Mia's voice"
+  },
+  {
+   "file": "amb_night_crickets_loop.wav",
+   "at": 136.195,
+   "until": 141.439,
+   "gain": -25,
+   "fade": 0.6,
+   "beat": "Kicker: the next night"
+  },
+  {
+   "file": "amb_dread_drone_loop.wav",
+   "at": 136.195,
+   "until": 141.439,
+   "gain": -20,
+   "fade": 1.0,
+   "beat": "Kicker"
+  }
+ ],
+ "hits": [
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 1.57,
+   "gain": -10,
+   "beat": "'don't answer' shocked push-in"
+  },
+  {
+   "file": "clock_bell_toll.wav",
+   "at": 2.85,
+   "gain": -12,
+   "beat": "Clock to 9:00"
+  },
+  {
+   "file": "caller_footsteps_creep.wav",
+   "at": 4.29,
+   "gain": -14,
+   "beat": "Caller walks out of the woods / down the street"
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 4.6,
+   "gain": -20,
+   "beat": "Caller presence"
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 7.35,
+   "gain": -18,
+   "beat": "Cut to hero at the door"
+  },
+  {
+   "file": "placeholder_dog_bark_far.wav",
+   "at": 11.15,
+   "gain": -20,
+   "beat": "Dog barks far off (replace with real bark)",
+   "need": "distant dog bark"
+  },
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 11.91,
+   "gain": -16,
+   "beat": "Caller copies"
+  },
+  {
+   "file": "door_open_creak.wav",
+   "at": 13.45,
+   "gain": -12,
+   "beat": "Door opens"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 14.35,
+   "gain": -12,
+   "beat": "Gone by morning"
+  },
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 17.93,
+   "gain": -14,
+   "beat": "Already gone"
+  },
+  {
+   "file": "lock_deadbolt.wav",
+   "at": 27.15,
+   "gain": -12,
+   "beat": "Checks the locks"
+  },
+  {
+   "file": "lock_deadbolt.wav",
+   "at": 28.95,
+   "gain": -12,
+   "beat": "Twice."
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 35.2,
+   "gain": -18,
+   "beat": "Twelve streetlights reveal"
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 37.2,
+   "gain": -18,
+   "beat": "When the Caller takes someone"
+  },
+  {
+   "file": "light_flicker_out.wav",
+   "at": 39.2,
+   "gain": -10,
+   "beat": "Light goes dark"
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 45.3,
+   "gain": -18,
+   "beat": "Something in the woods hears"
+  },
+  {
+   "file": "caller_footsteps_creep.wav",
+   "at": 45.9,
+   "gain": -16,
+   "beat": "Monday, Caller creeps up"
+  },
+  {
+   "file": "door_knock_x3_fast.wav",
+   "at": 46.9,
+   "gain": -10,
+   "beat": "Knock knock knock on the Millers' door"
+  },
+  {
+   "file": "door_open_creak.wav",
+   "at": 49.845,
+   "gain": -12,
+   "beat": "Mr Miller opens the door"
+  },
+  {
+   "file": "light_flicker_out.wav",
+   "at": 51.995,
+   "gain": -9,
+   "beat": "Millers' light flickers out"
+  },
+  {
+   "file": "placeholder_dog_bark_far.wav",
+   "at": 60.288,
+   "gain": -12,
+   "beat": "Kims' dog barks at the Caller (replace with real bark)",
+   "need": "dog barking aggressively, outdoor night"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 62.038,
+   "gain": -16,
+   "beat": "Empty dog bed"
+  },
+  {
+   "file": "light_clunk_out.wav",
+   "at": 62.388,
+   "gain": -12,
+   "beat": "Nine lights"
+  },
+  {
+   "file": "light_clunk_out.wav",
+   "at": 63.229,
+   "gain": -12,
+   "beat": "Then five"
+  },
+  {
+   "file": "light_clunk_out.wav",
+   "at": 64.008,
+   "gain": -12,
+   "beat": "Then two"
+  },
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 65.288,
+   "gain": -12,
+   "beat": "Ours was one of them"
+  },
+  {
+   "file": "caller_footsteps_creep.wav",
+   "at": 66.138,
+   "gain": -14,
+   "beat": "Out of the woods again, walks past houses, stops"
+  },
+  {
+   "file": "fx_reverse_swell.wav",
+   "at": 68.398,
+   "gain": -14,
+   "beat": "Swell into 'under my window'"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 69.999,
+   "gain": -14,
+   "beat": "Under my window"
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 70.139,
+   "gain": -18,
+   "beat": "Just standing there"
+  },
+  {
+   "file": "door_open_creak.wav",
+   "at": 81.211,
+   "gain": -14,
+   "beat": "Biscuit slips out the door"
+  },
+  {
+   "file": "clock_bell_toll.wav",
+   "at": 84.465,
+   "gain": -10,
+   "beat": "Clock 9:00"
+  },
+  {
+   "file": "fx_silence_suck.wav",
+   "at": 84.08,
+   "gain": -14,
+   "beat": "The woods went quiet"
+  },
+  {
+   "file": "fx_tinnitus_ring.wav",
+   "at": 85.265,
+   "gain": -30,
+   "beat": "Dead silence ring"
+  },
+  {
+   "file": "clock_915_hit.wav",
+   "at": 87.335,
+   "gain": -8,
+   "beat": "9:15 (minute hand clunk)"
+  },
+  {
+   "file": "door_knock_x3.wav",
+   "at": 88.225,
+   "gain": -6,
+   "beat": "Knock. Knock. Knock."
+  },
+  {
+   "file": "door_rattle.wav",
+   "at": 89.346,
+   "gain": -18,
+   "beat": "Door rattles on the 3rd knock"
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 89.875,
+   "gain": -18,
+   "beat": "Caller on the porch"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 90.76,
+   "gain": -14,
+   "beat": "Silhouette in the window"
+  },
+  {
+   "file": "house_stairs_creak.wav",
+   "at": 99.599,
+   "gain": -12,
+   "beat": "Mia creeps up the stairs"
+  },
+  {
+   "file": "house_stairs_creak.wav",
+   "at": 100.2,
+   "gain": -15,
+   "beat": "Mia creeps up the stairs"
+  },
+  {
+   "file": "door_knock_tiny.wav",
+   "at": 103.85,
+   "gain": -8,
+   "beat": "Then a tiny knock"
+  },
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 104.27,
+   "gain": -18,
+   "beat": "Hero wakes"
+  },
+  {
+   "file": "door_open_creak.wav",
+   "at": 110.966,
+   "gain": -10,
+   "beat": "Opens the door"
+  },
+  {
+   "file": "door_close_thud.wav",
+   "at": 112.216,
+   "gain": -10,
+   "beat": "Pulls her in, door shuts"
+  },
+  {
+   "file": "lock_deadbolt.wav",
+   "at": 112.516,
+   "gain": -10,
+   "beat": "Locks it"
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 119.966,
+   "gain": -18,
+   "beat": "Memory: Ortiz"
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 121.517,
+   "gain": -18,
+   "beat": "Memory: breakfast"
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 123.116,
+   "gain": -18,
+   "beat": "Memory: the window"
+  },
+  {
+   "file": "fx_whoosh.wav",
+   "at": 123.866,
+   "gain": -18,
+   "beat": "Memory: every night"
+  },
+  {
+   "file": "fx_riser_8s.wav",
+   "at": 122.966,
+   "gain": -12,
+   "beat": "Riser into the grin"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 130.618,
+   "gain": -8,
+   "beat": "The Mia in my arms smiled"
+  },
+  {
+   "file": "caller_grin_stretch_1.wav",
+   "at": 130.618,
+   "gain": -12,
+   "beat": "Grin 1"
+  },
+  {
+   "file": "caller_grin_stretch_2.wav",
+   "at": 131.248,
+   "gain": -11,
+   "beat": "Wider."
+  },
+  {
+   "file": "caller_grin_stretch_2.wav",
+   "at": 131.847,
+   "gain": -10,
+   "beat": "Wider."
+  },
+  {
+   "file": "caller_breath_groan.wav",
+   "at": 132.318,
+   "gain": -16,
+   "beat": "'You said it in your sleep' whisper"
+  },
+  {
+   "file": "hit_sub_boom.wav",
+   "at": 133.302,
+   "gain": -6,
+   "beat": "Hero scream"
+  },
+  {
+   "file": "caller_void_pitchdown.wav",
+   "at": 134.081,
+   "gain": -10,
+   "beat": "Every night: black void mouth"
+  },
+  {
+   "file": "light_clunk_out.wav",
+   "at": 134.775,
+   "gain": -8,
+   "beat": "Our streetlight went dark"
+  },
+  {
+   "file": "fx_tinnitus_ring.wav",
+   "at": 135.425,
+   "gain": -28,
+   "beat": "Ring after the light dies"
+  },
+  {
+   "file": "caller_footsteps_creep.wav",
+   "at": 136.625,
+   "gain": -14,
+   "beat": "Next night: walks down Maple Street to our house"
+  },
+  {
+   "file": "hit_horror_stinger.wav",
+   "at": 140.339,
+   "gain": -8,
+   "beat": "'Pineapple.' smile hold, end"
+  }
+ ],
+ "needs": [
+  {
+   "at": 11.15,
+   "beat": "Dog barks far off",
+   "search": "distant dog bark night, dog barking far away"
+  },
+  {
+   "at": 41.33,
+   "beat": "'Cocoa!' shout, dog runs home",
+   "search": "dog running on grass, dog collar tags jingle, happy dog bark"
+  },
+  {
+   "at": 50.844,
+   "beat": "Mr Miller still holding his mug",
+   "search": "ceramic mug set down, coffee sip, mug clink"
+  },
+  {
+   "at": 60.288,
+   "beat": "Kims' dog barks at the Caller",
+   "search": "dog barking aggressive outdoor, dog growl bark"
+  },
+  {
+   "at": 67.138,
+   "beat": "Caller's weird head tilt",
+   "search": "neck crack, bone crack, joint pop"
+  },
+  {
+   "at": 76.988,
+   "beat": "Breakfast, mid-spoon",
+   "search": "spoon in cereal bowl, kitchen breakfast foley"
+  },
+  {
+   "at": 81.311,
+   "beat": "Biscuit slips out",
+   "search": "cat meow, cat running paws"
+  },
+  {
+   "at": 82.282,
+   "beat": "Mom runs after her",
+   "search": "footsteps running wooden floor, footsteps porch steps"
+  },
+  {
+   "at": 91.964,
+   "beat": "Mia grabs my sleeve",
+   "search": "cloth grab, fabric rustle foley"
+  },
+  {
+   "at": 97.358,
+   "beat": "Mom's phone upstairs / call Grandma",
+   "search": "phone dial tone, phone ringing muffled"
+  },
+  {
+   "at": 105.15,
+   "beat": "Not-Mia crying at the door (under the voice)",
+   "search": "child sobbing quiet (only if the voice line needs support)"
+  },
+  {
+   "at": 133.302,
+   "beat": "Hero scream",
+   "search": "boy scream horror, short scream (or leave to the voice)"
+  }
+ ],
+ "duration": 141.439
+}

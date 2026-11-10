@@ -1,0 +1,493 @@
+{
+  "hero": {
+    "builder": "hero",
+    "name": "Hero (narrator)",
+    "notes": "Blonde kid, yellow/black striped shirt. House narrator in every video."
+  },
+  "mom": {
+    "builder": "mom",
+    "name": "Mom",
+    "notes": "Green cardigan, dark bun."
+  },
+  "dad": {
+    "builder": "dad",
+    "name": "Dad",
+    "notes": "Blue shirt, brown hair, mustache."
+  },
+  "friend": {
+    "builder": "friend",
+    "name": "Best friend",
+    "notes": "Red hoodie, curly black hair."
+  },
+  "littleSister": {
+    "builder": "littleSister",
+    "name": "Little sister",
+    "notes": "Pink pyjamas, brown pigtails, 0.8 scale."
+  },
+  "oldMan": {
+    "builder": "oldMan",
+    "name": "Old neighbour",
+    "notes": "White hair and mustache, brown cardigan."
+  },
+  "neighbor": {
+    "builder": "neighbor",
+    "name": "Neighbour",
+    "notes": "Bald, plaid shirt."
+  },
+  "caller": {
+    "builder": "caller",
+    "name": "The Caller (monster)",
+    "notes": "Tall black figure, tilted head, smile line via setSmile(0..1)."
+  },
+  "black_shirt_girl": {
+    "file": "models/black_shirt_girl.glb",
+    "name": "Black Shirt Girl",
+    "assetId": 14675675318,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/black_shirt_girl_head_noface.png",
+    "face": "models/black_shirt_girl_face.png",
+    "notes": "Head front face 1.125 x 1.127 (classic rounded head, own mesh bounds at height 5.2). Free model 'Become A Girl Simulator NPC'. Dark skin, long wavy black hair (Acc_Handle1 under Head), black crop top + jeans (all on the Pants template). Big anime eyes + open smile baked face. Accessories are Acc_* nodes; headNoFace is a full copy of the body atlas with only the face tile (px 901-1002 x 8-120) painted skin, so it can replace the Head mesh map directly."
+  },
+  "cat_girl": {
+    "file": "models/cat_girl.glb",
+    "name": "Cat girl",
+    "assetId": 108528740871268,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/cat_girl_head_noface.png",
+    "face": "models/cat_girl_face.png",
+    "notes": "Head front face 1.065 x 1.067 (classic rounded head, own mesh bounds at height 5.2). Free model 'Neko girl IA'. Black hair, black cat ears, collar with bell (under Torso), black tail (under Torso), red patterned sweater, bare legs. One shared atlas material. Accessories are Acc_* nodes; headNoFace is a full copy of the body atlas with only the face tile (px 901-1002 x 8-120) painted skin, so it can replace the Head mesh map directly."
+  },
+  "cat_girl_white": {
+    "file": "models/cat_girl_white.glb",
+    "name": "Cat girl white",
+    "assetId": 91741854794832,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/cat_girl_white_head_noface.png",
+    "face": "models/cat_girl_white_face.png",
+    "notes": "Head front face 1.087 x 1.088 (classic rounded head, own mesh bounds at height 5.2). Free model 'Neko Cat girl Catgirl'. White ribbed sweater, black cat-ear hair + front hair strands, black tail (under Torso), striped thigh socks. Model was saved posed: limbs reset to R6 rest in conversion (pose_fix.json). Legs are 2.07 studs (slightly long). Accessories are Acc_* nodes; headNoFace is a full copy of the body atlas with only the face tile (px 901-1002 x 8-120) painted skin, so it can replace the Head mesh map directly."
+  },
+  "teacher": {
+    "file": "models/teacher.glb",
+    "name": "Teacher",
+    "assetId": 851937200,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/teacher_head_noface.png",
+    "face": "models/teacher_face.png",
+    "notes": "Head front face 1.045 x 1.046 (classic rounded head, own mesh bounds at height 5.2). Free model 'Teacher ( Girl )'. Brown hair bun (Acc_Handle1, low-res 32px texture), black glasses (Acc_Handle2), both under Head. Pink vest + red bow over white shirt, pink skirt, white socks, brown shoes. Accessories are Acc_* nodes; headNoFace is a full copy of the body atlas with only the face tile (px 901-1002 x 8-120) painted skin, so it can replace the Head mesh map directly."
+  },
+  "narrator_boy": {
+    "file": "models/narrator_boy.glb",
+    "name": "Narrator boy (hero)",
+    "assetId": 4904844800,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/narrator_boy_head_noface.png",
+    "face": "models/narrator_boy_face.png",
+    "notes": "Free model 'NPC boy'. Blonde spiky hair (Acc under Head), band-aid on cheek, grey plaid shirt over grey hoodie, plaid pants. Baked smile face. Use as the hero."
+  },
+  "friend_boy": {
+    "file": "models/friend_boy.glb",
+    "name": "Best friend boy",
+    "assetId": 87801448770933,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceSwap": true,
+    "notes": "Free model 'Boy R6 Rig'. Brown beanie + dark hair (Acc under Head), green/cream varsity jacket 'C 11', black cargo pants. Head has NO face decal, so faceSwap adds the kit faces."
+  },
+  "mom_brown": {
+    "file": "models/mom_brown.glb",
+    "name": "Mom",
+    "assetId": 8243272714,
+    "rig": "R6",
+    "height": 5.7,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/mom_brown_head_noface.png",
+    "face": "models/mom_brown_face.png",
+    "notes": "Free model 'Mom's NPC'. White bucket hat with butterfly, long brown pigtails, white tee, light-blue overalls, white shoulder bag (under Torso). Freckles + smile baked face. Saved facing +X in Studio: rotated 90 deg in the OBJ before converting (mom_brown_orig.obj.bak)."
+  },
+  "dad_white": {
+    "file": "models/dad_white.glb",
+    "name": "Dad",
+    "assetId": 8243277366,
+    "rig": "R6",
+    "height": 6.0,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/dad_white_head_noface.png",
+    "face": "models/dad_white_face.png",
+    "notes": "Free model 'Dad's NPC'. Black hair, white button shirt with pocket, grey jeans, brown shoes. Smile face. Studio exported the scaled body parts at default size: limbs/torso were scaled x1.218 about their centres in the OBJ (dad_white_orig.obj.bak). Use as Mr Miller or any dad."
+  },
+  "grandpa": {
+    "file": "models/grandpa.glb",
+    "name": "Grandpa",
+    "assetId": 119893457287829,
+    "rig": "R15",
+    "height": 5.6,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/grandpa_head_noface.png",
+    "face": "models/grandpa_face.png",
+    "notes": "Free model 'Old Man Jack' (R15, body parts classified by position). Brown fedora, long white beard (Acc under Head), brown jacket, blue jeans, sneakers. Use as Mr Ortiz / old neighbour. R15 head UVs: face tile differs from R6 (see report)."
+  },
+  "grandma": {
+    "file": "models/grandma.glb",
+    "name": "Grandma",
+    "assetId": 16198634320,
+    "rig": "R6",
+    "height": 5.4,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/grandma_head_noface.png",
+    "face": "models/grandma_face.png",
+    "notes": "Free model 'Velinha'. White curly hair + glasses (Acc under Head), light-blue knit sweater with white collar, mauve pants. Dark brown skin on the head texture (hands are lighter)."
+  },
+  "little_sister_b": {
+    "file": "models/little_sister_b.glb",
+    "name": "Little sister (Mia)",
+    "assetId": 13703622287,
+    "rig": "R15",
+    "height": 4.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/little_sister_b_head_noface.png",
+    "face": "models/little_sister_b_face.png",
+    "notes": "One of two girls in free model 13703622287 (Aris picked it). Blonde pigtails with mint bows, pink/white striped top, open-mouth happy baked face. R15, parts by position. Kid height 4.2. The black-haired twin (little_sister) is not exported yet."
+  },
+  "tall_shadow": {
+    "file": "models/tall_shadow.glb",
+    "name": "Tall shadow (Caller monster)",
+    "assetId": 102673107368067,
+    "rig": "rigid",
+    "height": 9.0,
+    "yaw": 0,
+    "faceBaked": false,
+    "notes": "Free model 'Backrooms Monster'. Thin black creature, very long branching legs and arms, blob head. ONE mesh: exported as a single rigid 'Torso' node with no limbs, so it can't walk; move it with stiff glides, tilts and sudden jumps (fits the monster gait rule). No face."
+  },
+  "little_sister": {
+    "file": "models/little_sister.glb",
+    "name": "Little sister (dark pigtails)",
+    "assetId": 13703622287,
+    "rig": "R15",
+    "height": 4.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/little_sister_head_noface.png",
+    "face": "models/little_sister_face.png",
+    "notes": "Twin of little_sister_b from free model 13703622287: black pigtails with mint bows + strawberry clips, pink strawberry overalls. Studio exported no body texture, so the body atlas is little_sister_b's (same outfit and face). Closest to Mia's brown pigtails. R15, kid height 4.2."
+  },
+  "horned_shadow": {
+    "file": "models/horned_shadow.glb",
+    "name": "Horned shadow (monster)",
+    "assetId": 122664926249551,
+    "rig": "R6",
+    "height": 6.0,
+    "yaw": 0,
+    "faceBaked": false,
+    "notes": "Free model 'The Backrooms Monster' (Aris's Monster 1). All-black blocky figure with small devil horns (Acc under Head); one long right arm. Saved hunched: torso and head are baked tilted and the limbs keep small gaps, which reads as creepy. Studio exported it facing -X with unscaled limbs: the OBJ was turned 90 deg and each limb scaled to its Studio size (horned_shadow_orig.obj.bak). No face; give it red glowing eyes in the shot if needed."
+  },
+  "narrator_boy_red": {
+    "base": "narrator_boy",
+    "name": "Kid (red plaid)",
+    "recolor": {
+      "tint": "#c0392b",
+      "light": 1.0
+    },
+    "hair": {
+      "hue": -20,
+      "sat": 0.6,
+      "light": 0.55
+    },
+    "notes": "Colour variant of narrator_boy (kit/models.js recolor). Side character."
+  },
+  "narrator_boy_blue": {
+    "base": "narrator_boy",
+    "name": "Kid (blue plaid)",
+    "recolor": {
+      "tint": "#2e6fd8"
+    },
+    "hair": {
+      "tint": "#3b2a1e",
+      "light": 0.9
+    },
+    "notes": "Colour variant of narrator_boy (kit/models.js recolor). Side character."
+  },
+  "friend_boy_red": {
+    "base": "friend_boy",
+    "name": "Kid (red varsity)",
+    "recolor": {
+      "hue": -140
+    },
+    "notes": "Colour variant of friend_boy (kit/models.js recolor). Side character."
+  },
+  "friend_boy_blue": {
+    "base": "friend_boy",
+    "name": "Kid (blue varsity)",
+    "recolor": {
+      "hue": 80
+    },
+    "notes": "Colour variant of friend_boy (kit/models.js recolor). Side character."
+  },
+  "mom_pink": {
+    "base": "mom_brown",
+    "name": "Woman (pink overalls)",
+    "recolor": {
+      "tint": "#e57fb0",
+      "keep": [
+        "#ffffff"
+      ]
+    },
+    "hair": {
+      "tint": "#e3c27a",
+      "light": 1.2
+    },
+    "notes": "Colour variant of mom_brown (kit/models.js recolor). Side character."
+  },
+  "mom_green": {
+    "base": "mom_brown",
+    "name": "Woman (green overalls)",
+    "recolor": {
+      "tint": "#4f9a5a",
+      "keep": [
+        "#ffffff"
+      ]
+    },
+    "hair": {
+      "tint": "#2b2018",
+      "light": 0.8
+    },
+    "notes": "Colour variant of mom_brown (kit/models.js recolor). Side character."
+  },
+  "dad_blue": {
+    "base": "dad_white",
+    "name": "Man (blue shirt)",
+    "recolor": {
+      "tint": "#3d6fb6"
+    },
+    "notes": "Colour variant of dad_white (kit/models.js recolor). Side character."
+  },
+  "dad_red": {
+    "base": "dad_white",
+    "name": "Man (red shirt)",
+    "recolor": {
+      "tint": "#b03a32"
+    },
+    "hair": {
+      "tint": "#7a5230"
+    },
+    "notes": "Colour variant of dad_white (kit/models.js recolor). Side character."
+  },
+  "dad_green": {
+    "base": "dad_white",
+    "name": "Man (green shirt)",
+    "recolor": {
+      "tint": "#4c8a4a"
+    },
+    "hair": {
+      "tint": "#c9a25a",
+      "light": 1.3
+    },
+    "notes": "Colour variant of dad_white (kit/models.js recolor). Side character."
+  },
+  "grandma_pink": {
+    "base": "grandma",
+    "name": "Old woman (pink sweater)",
+    "recolor": {
+      "hue": 140
+    },
+    "notes": "Colour variant of grandma (kit/models.js recolor). Side character."
+  },
+  "grandpa_grey": {
+    "base": "grandpa",
+    "name": "Old man (grey jacket)",
+    "recolor": {
+      "sat": 0.0,
+      "light": 1.2
+    },
+    "notes": "Colour variant of grandpa (kit/models.js recolor). Side character."
+  },
+  "teacher_blue": {
+    "base": "teacher",
+    "name": "Woman (blue vest)",
+    "recolor": {
+      "hue": -120
+    },
+    "notes": "Colour variant of teacher (kit/models.js recolor). Side character."
+  },
+  "cat_girl_blue": {
+    "base": "cat_girl",
+    "name": "Girl (blue sweater)",
+    "recolor": {
+      "hue": -150
+    },
+    "notes": "Colour variant of cat_girl (kit/models.js recolor). Side character."
+  },
+  "black_shirt_girl_red": {
+    "base": "black_shirt_girl",
+    "name": "Girl (red top)",
+    "recolor": {
+      "tint": "#b8322c"
+    },
+    "notes": "Colour variant of black_shirt_girl (kit/models.js recolor). Side character."
+  },
+  "school_girl": {
+    "file": "models/school_girl.glb",
+    "name": "School uniform girl",
+    "assetId": 9979849134,
+    "rig": "R15",
+    "height": 5.0,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/school_girl_head_noface.png",
+    "face": "models/school_girl_face.png",
+    "notes": "Aris's pick. Long blonde hair, grey blazer, red tie, green plaid skirt. Happy blush face. Classmate / student."
+  },
+  "builder": {
+    "file": "models/builder.glb",
+    "name": "Builder (construction worker)",
+    "assetId": 110995884088661,
+    "rig": "R6",
+    "height": 5.6,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/builder_head_noface.png",
+    "face": "models/builder_face.png",
+    "notes": "Orange hard hat, dark hoodie, jeans. Workman, background adult."
+  },
+  "police": {
+    "file": "models/police.glb",
+    "name": "Police officer",
+    "assetId": 107998322296331,
+    "rig": "R6",
+    "height": 5.6,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/police_head_noface.png",
+    "face": "models/police_face.png",
+    "notes": "Blue uniform, tie, belt with radio/taser/holster (23 small accessories under Torso). Authority figure."
+  },
+  "suit_man": {
+    "file": "models/suit_man.glb",
+    "name": "Man in suit and top hat",
+    "assetId": 87395712026439,
+    "rig": "R6",
+    "height": 5.8,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/suit_man_head_noface.png",
+    "face": "models/suit_man_face.png",
+    "notes": "Black suit and top hat. Mayor, principal, stranger, funeral."
+  },
+  "bacon_kid": {
+    "file": "models/bacon_kid.glb",
+    "name": "Bacon hair kid",
+    "assetId": 118537732189575,
+    "rig": "R6",
+    "height": 5.0,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/bacon_kid_head_noface.png",
+    "face": "models/bacon_kid_face.png",
+    "notes": "Classic brown bacon hair, black vest over blue tee, white arms. Generic kid / classmate."
+  },
+  "neighbor_shades": {
+    "file": "models/neighbor_shades.glb",
+    "name": "Neighbour (sunglasses, beard)",
+    "assetId": 123802377044235,
+    "rig": "R6",
+    "height": 5.8,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/neighbor_shades_head_noface.png",
+    "face": "models/neighbor_shades_face.png",
+    "notes": "Brown hair, beard, purple sunglasses, navy striped polo, khaki shorts. Neighbour / dad / coach."
+  },
+  "cap_boy": {
+    "file": "models/cap_boy.glb",
+    "name": "Boy in baseball cap",
+    "assetId": 8188608019,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/cap_boy_head_noface.png",
+    "face": "models/cap_boy_face.png",
+    "notes": "Red/grey cap, navy NY varsity jacket with striped sleeves, jeans. Classmate."
+  },
+  "plaid_boy": {
+    "file": "models/plaid_boy.glb",
+    "name": "Boy in blue plaid",
+    "assetId": 135634323232287,
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/plaid_boy_head_noface.png",
+    "face": "models/plaid_boy_face.png",
+    "notes": "Black hair, blue plaid shirt over black tee, black pants. Quiet / sad kid."
+  },
+  "blonde_girl": {
+    "file": "models/blonde_girl.glb",
+    "name": "Blonde girl (pink skirt)",
+    "assetId": 10103649325,
+    "rig": "R6",
+    "height": 5.0,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/blonde_girl_head_noface.png",
+    "face": "models/blonde_girl_face.png",
+    "notes": "Long blonde hair, cream top, pink skirt, pink shoes. Classmate / friend."
+  },
+  "spiky_kid": {
+    "file": "models/spiky_kid.glb",
+    "name": "Spiky-hair little kid",
+    "assetId": 7814199543,
+    "rig": "R6",
+    "height": 4.0,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/spiky_kid_head_noface.png",
+    "face": "models/spiky_kid_face.png",
+    "notes": "Big red spiky hair, '2015' tee, chibi big-eyed face (big head). Younger kid / sibling."
+  },
+  "black_dress_girl": {
+    "file": "models/black_dress_girl.glb",
+    "name": "Black dress girl",
+    "assetId": 129622094550660,
+    "rig": "R15",
+    "height": 5.2,
+    "yaw": 0,
+    "faceBaked": true,
+    "headNoFace": "models/black_dress_girl_head_noface.png",
+    "face": "models/black_dress_girl_face.png",
+    "defaultFace": "neutral_droopy_eyes_girl",
+    "notes": "Aris's pick (2026-11-09). Free model 'GIANT GIRL' (scaled to normal size). Long black hair with grey streaks, black fur ushanka with a white cross, black sleeveless dress with a skin-coloured heart. Her in-game face was a mesh Face accessory (dropped, see _work/black_dress_girl/convert.json); its drawing is the image face neutral_droopy_eyes_girl, set as defaultFace so it shows unless a shot calls setFace. Hair and hat decimated to 1500 faces each. The baked atlas face (lipstick smile) is cut out of headNoFace.",
+    "faceScale": 1.05,
+    "faceLift": -0.15
+  },
+  "anime_girl": {
+    "file": "models/anime_girl.glb",
+    "name": "Anime wolfcut girl",
+    "rig": "R6",
+    "height": 5.2,
+    "yaw": 0,
+    "faceSwap": true,
+    "defaultFace": "girl_slight_smile",
+    "notes": "Aris 2026-11-10. R6 body + Anime Wolfcut Hair (asset 14982896047, Acc_Handle1, decimated to 1500 faces). Head has no baked face: faceSwap lets kit/image faces work. Body is default skin/untextured: recolour with a recolor preset or re-export with shirt/pants IDs in a HumanoidDescription."
+  }
+}

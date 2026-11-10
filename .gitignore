@@ -1,0 +1,10 @@
+.env
+.env.*
+node_modules/
+*.mp4
+*.mp3
+*.wav
+threejs/videos/*/test/
+threejs/videos/*/_eleven/
+__pycache__/
+*.pyc

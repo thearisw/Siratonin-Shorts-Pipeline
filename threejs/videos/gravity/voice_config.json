@@ -1,0 +1,6 @@
+{
+  "offset": {"ROSE": 1.5, "HALE": -2.5, "ME": 0.5},
+  "gain": {"ROSE": 1.5, "HALE": 1.0},
+  "spoken": {},
+  "tags": {"20": "[flustered]", "23": "[annoyed]"}
+}
