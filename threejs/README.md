@@ -31,8 +31,8 @@ for no music. **Crush videos** add `{ "format": "crush" }` to music.json and get
 
 ## Fast render on the PC (GPU)
 The cloud machine has no GPU, so Chrome draws there with SwiftShader on the CPU (about 1.5 s a frame). On the user's PC
-(RTX 4050 laptop) run `render_gpu.bat pineapple` or `node kit/render_gpu.js pineapple` from this folder: WebGL runs on the
-NVIDIA card through ANGLE/D3D11, frames stream straight into ffmpeg and encode with NVENC. With 3 workers it does about 23 fps (43 ms a
+ run `render_gpu.bat (name of video)` or `node kit/render_gpu.js pineapple` from this folder: WebGL runs on the
+ GPU through ANGLE/D3D11, frames stream straight into ffmpeg and encode with NVENC. With 3 workers it does about 23 fps (43 ms a
 frame), so a 150 s reel takes about 3.5 minutes. It prints the WebGL renderer at start; if it says SwiftShader, something is wrong.
 `--from/--to/--out/--encoder auto|nvenc|amf|qsv|x264` work as in render.js. Copy the video's folder to the PC first.
 
@@ -150,8 +150,7 @@ quaternius.com (Ultimate Vehicles / Modular buildings), poly.pizza (search "car"
 (brick/concrete/asphalt textures, 1K JPG is enough). Drop textures in `models/textures/` and use `new THREE.TextureLoader()` with `tileUV`.
 
 ## Z-fighting (flicker) rules (Fog)
-- **Sets sit 300 units apart, so a set's ground must be smaller than ~290 units.** Fog's camp ground (600x600) overlapped the schoolyard
-  ground at y 0 and showed as a flickering dark square. Every flat layer on top of another (yard, road, rug, path, lines) is lifted 0.02-0.05.
+- **Sets sit 300 units apart, so a set's ground must be smaller than ~290 units.** Grounds sometimes overlap, causing z-fighting. Every flat layer on top of another (yard, road, rug, path, lines) is lifted 0.02-0.05.
 - `kit/director.js` checks the scene once at load and prints `Z-FIGHT RISK: ...` (render.js / render_gpu.js show it as `page:`) for flat
   surfaces at the same height that overlap. Fix every warning before a full render.
 - GLB limbs touch the torso with coplanar faces; `kit/models.js` gives limb materials a polygon offset so the torso always wins (no shimmer on clothes).

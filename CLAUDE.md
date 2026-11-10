@@ -1,5 +1,4 @@
 # Roblox Story Shorts — House Rules
-Channel Name: Siratonin Films
 Vertical 9:16 story reels, animated in **three.js** (`threejs/`). Roblox Studio and Blender-era history is archived and not needed for new work.
 
 **Making a video = `PIPELINE.md`** (the one fixed production pipeline: steps, voice, kit API, camera rules for the vertical frame, music, no cloud rendering, and the parallel coordinator + agents plan). This file holds the story rules. **Never read another video's `world.js`/`shots.js`/notes for guidance**: reuse the kit, not past video code.
@@ -90,7 +89,7 @@ Crude animation is fine (static poses, simple walks, sitting, falling). Emotion 
 ## 5–9. Visuals, sets, cast, captions, camera, production pipeline, kit map
 All in **`PIPELINE.md`**. Captions: one word at a time, key words marked `*word*` in the script, numbers as numerals.
 
-## 15. Titles and packaging (Hadel Films; details in `reference_analysis.md` §15–18, read only if needed)
+## 15. Titles and packaging (details in `reference_analysis.md` §15–18, read only if needed)
 - Title = 3–8 words, first person, one plain verb + one impossible object/rule, **outcome withheld**, one emoji at the end (💀 / 😳 / object). Short sentence case beats long ALL-CAPS.
 - Irony/contradiction is the strongest hook ("I Tried to Lose…", "slowest race").
 - Rule-horror: "In This World, [rule]!" or "My [family member]'s [object] [did impossible thing]!".
