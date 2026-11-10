@@ -44,10 +44,9 @@ node kit/render_gpu.js <v>                    # full render on a GPU machine (Wi
 ```
 **Not included, so a render won't run out of the box:** the character and building models (they come from Roblox assets I can't redistribute), the voice audio, the music tracks (licensed; drop your own into `threejs/music/`) and the generated sound files (regenerate with `python threejs/sfx/gen_sfx.py threejs/sfx`). The reference videos I studied and their transcripts are also left out; the format docs keep only my measurements and short quotes.
 
-## What the AI got wrong (and what I changed because of it)
+## Recent Bug Fixes caused by the AI Model
 - **Wrong diagnosis of a "vibrating" bug.** Standing characters jittered in a finished render. The model first blamed fast shiver animations aliasing at 30 fps and added a speed limit. The real cause was render-worker load order: characters were indexed in the order their models finished downloading, which differed per worker, so idle motion was seeded differently on every third frame. The fix was seeding by a stable name, and I added `pose_probe.cjs` so this kind of bug is found by measuring instead of guessing.
-- **Scripts ran long.** A short meant to be about 36 s came out at 48.6 s because the model applied the reference channels' words-per-second to a voice that reads slower. The format docs now give a word budget measured on our own voice (~140 words for 36 s).
-- **Story logic holes.** An early horror script's twist contradicted its own evidence, and storyboards had the narrator "realize" things with no clue planted. That's why `CLAUDE.md` §4b now forces a rules box, at least three planted clues and a timestamped self-check before staging.
-- **Token waste.** Hand-building every set from primitives in each video took a large share of each video's tokens and produced near-identical code. The fix was a reusable kit (sets, buildings, interiors), a rule to never copy past videos, and a per-video `TOKEN_LOG.md` to track where tokens go.
+- **Story logic holes.** An early horror script's twist contradicted its own evidence, and storyboards had the narrator "realize" things with no clue planted. `CLAUDE.md` §4b now forces a rules box, at least three planted clues and a timestamped self-check before staging. Especially important if you want a logical story.
+- **Token waste.** Hand-building every set from primitives in each video took a large share of each video's tokens and produced near-identical code. The fix was a reusable kit (sets, buildings, interiors), a rule to never copy past videos, and a per-video `TOKEN_LOG.md` to track where tokens go. shots.js also reads individual coordinate points as a reference point, rather than loading the whole 3D environment for every shot.
 
-All renders were done locally on my own GPU, never in the cloud.
+All renders should be done on the user's GPU for maximized time efficiency.
