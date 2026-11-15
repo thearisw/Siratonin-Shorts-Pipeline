@@ -1,6 +1,6 @@
 # three.js reels
 
-Our vertical story reels are animated and rendered in three.js now; Roblox Studio is no longer used.
+Our vertical story reels are animated and rendered in three.js.
 Everything is code: the sets, the characters, the camera and the shot list. A headless browser renders each frame at an exact time,
 and ffmpeg muxes the frames with the narration. Renders are deterministic and need no OBS.
 
